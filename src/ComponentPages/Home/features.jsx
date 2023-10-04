@@ -30,8 +30,8 @@ export default function Features() {
                             </Link>
                         </div>
                     </div>
-                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                    <SwiperSlide>
+                    {/* <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                    <SwiperSlide> */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                             <div className="bg-white rounded-lg shadow-lg">
@@ -73,8 +73,9 @@ export default function Features() {
                             </div>
                         </div>
                     </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
+                    {/* </SwiperSlide>
+                    <SwiperSlide> */}
+                    <br></br>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                             <div className="bg-white rounded-lg shadow-lg">
@@ -116,8 +117,8 @@ export default function Features() {
                             </div>
                         </div>
                     </div>
-                    </SwiperSlide>
-                    </Swiper>
+                    {/* </SwiperSlide>
+                    </Swiper> */}
                 </div>
 
             </div>
